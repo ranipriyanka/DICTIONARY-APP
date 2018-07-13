@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int time_splash = 2000;
+        int time_splash = 4000;
 
         new Handler().postDelayed(new Runnable() {
                                       @Override
